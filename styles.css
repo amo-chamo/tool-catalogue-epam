@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+.site-header {
+    background-color: #1F363D;
+    color: white;
+    padding: 1rem 2rem;
+
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.nav-menu a {
+    color: #9cc3cf;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+
+
+.catalogue-container {
+    width: 90%;
+    /* max-width: 1200px; */
+    margin: 1rem auto;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.filter-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #70A9A1;
+    color: rgb(44, 44, 44);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    /* transition: background-color 0.3s ease; */
+}
+
+.filter-button:hover {
+    background-color: #84c6bd;
+}
+
+
+
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.product-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+}
+
+
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.product-name {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-price {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.favorite-button {
+    background-color: transparent;
+    border: 1px solid #ff4757;
+    color: #ff4757;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+.favorite-button:hover {
+    background-color: #ff4757;
+    color: white;
+}
+
+.favorite-button.favorited {
+    background-color: #ff4757;
+    color: white;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #3c4139;
+    color: white;
+    margin-top: 3rem;
+}

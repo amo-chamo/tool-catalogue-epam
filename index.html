@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Tool Catalogue</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header class="site-header">
+        <nav class="navigation">
+            <ul class="nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Catalogue</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="catalogue-container">
+
+        <section class="filters">
+            <button id="show-favorites" class="filter-button">Show Favorites</button>
+            <button class="filter-button" data-category="all">All</button>
+            <button class="filter-button" data-category="hammers">Hammers</button>
+            <button class="filter-button" data-category="screwdrivers">Screwdrivers</button>
+            <button class="filter-button" data-category="drills">Drills</button>
+            <button class="filter-button" data-category="wrenches">Wrenches</button>
+            <button class="filter-button" data-category="saws">Saws</button>
+        </section>
+
+        <div class="products-grid">
+            
+            <div class="product-card" data-category="hammers">
+                <img src="assets/images/tool.png" alt="Hammer" class="product-image">
+                <h2 class="product-name">Steel Hammer</h2>
+                <p class="product-price">$19.99</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+
+            <div class="product-card" data-category="screwdrivers">
+                <img src="assets/images/tool.png" alt="Screwdriver" class="product-image">
+                <h2 class="product-name">Flathead Screwdriver</h2>
+                <p class="product-price">$7.50</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+
+            <div class="product-card" data-category="drills">
+                <img src="assets/images/tool.png" alt="Drill" class="product-image">
+                <h2 class="product-name">Electric Drill</h2>
+                <p class="product-price">$59.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+
+            <div class="product-card" data-category="hammers">
+                <img src="assets/images/tool.png" alt="Claw Hammer" class="product-image">
+                <h2 class="product-name">Claw Hammer</h2>
+                <p class="product-price">$22.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+
+            <div class="product-card" data-category="hammers">
+                <img src="assets/images/tool.png" alt="Claw Hammer" class="product-image">
+                <h2 class="product-name">Claw Hammer</h2>
+                <p class="product-price">$22.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="hammers">
+                <img src="assets/images/tool.png" alt="Sledgehammer" class="product-image">
+                <h2 class="product-name">Sledgehammer</h2>
+                <p class="product-price">$35.50</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="hammers">
+                <img src="assets/images/tool.png" alt="Ball Peen Hammer" class="product-image">
+                <h2 class="product-name">Ball Peen Hammer</h2>
+                <p class="product-price">$28.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="hammers">
+                <img src="assets/images/tool.png" alt="Rubber Mallet" class="product-image">
+                <h2 class="product-name">Rubber Mallet</h2>
+                <p class="product-price">$18.25</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="hammers">
+                <img src="assets/images/tool.png" alt="Dead Blow Hammer" class="product-image">
+                <h2 class="product-name">Dead Blow Hammer</h2>
+                <p class="product-price">$32.10</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="screwdrivers">
+                <img src="assets/images/tool.png" alt="Phillips Screwdriver" class="product-image">
+                <h2 class="product-name">Phillips Screwdriver</h2>
+                <p class="product-price">$6.99</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="screwdrivers">
+                <img src="assets/images/tool.png" alt="Flathead Screwdriver" class="product-image">
+                <h2 class="product-name">Flathead Screwdriver</h2>
+                <p class="product-price">$7.50</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="screwdrivers">
+                <img src="assets/images/tool.png" alt="Torx Screwdriver" class="product-image">
+                <h2 class="product-name">Torx Screwdriver</h2>
+                <p class="product-price">$9.20</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="screwdrivers">
+                <img src="assets/images/tool.png" alt="Hex Screwdriver" class="product-image">
+                <h2 class="product-name">Hex Screwdriver</h2>
+                <p class="product-price">$8.75</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="screwdrivers">
+                <img src="assets/images/tool.png" alt="Precision Screwdriver Set" class="product-image">
+                <h2 class="product-name">Precision Screwdriver Set</h2>
+                <p class="product-price">$15.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="drills">
+                <img src="assets/images/tool.png" alt="Cordless Drill" class="product-image">
+                <h2 class="product-name">Cordless Drill</h2>
+                <p class="product-price">$79.99</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="drills">
+                <img src="assets/images/tool.png" alt="Hammer Drill" class="product-image">
+                <h2 class="product-name">Hammer Drill</h2>
+                <p class="product-price">$89.50</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="drills">
+                <img src="assets/images/tool.png" alt="Impact Drill" class="product-image">
+                <h2 class="product-name">Impact Drill</h2>
+                <p class="product-price">$95.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="drills">
+                <img src="assets/images/tool.png" alt="Right Angle Drill" class="product-image">
+                <h2 class="product-name">Right Angle Drill</h2>
+                <p class="product-price">$120.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="drills">
+                <img src="assets/images/tool.png" alt="Rotary Hammer Drill" class="product-image">
+                <h2 class="product-name">Rotary Hammer Drill</h2>
+                <p class="product-price">$150.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="wrenches">
+                <img src="assets/images/tool.png" alt="Adjustable Wrench" class="product-image">
+                <h2 class="product-name">Adjustable Wrench</h2>
+                <p class="product-price">$14.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="wrenches">
+                <img src="assets/images/tool.png" alt="Socket Wrench" class="product-image">
+                <h2 class="product-name">Socket Wrench</h2>
+                <p class="product-price">$29.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="wrenches">
+                <img src="assets/images/tool.png" alt="Torque Wrench" class="product-image">
+                <h2 class="product-name">Torque Wrench</h2>
+                <p class="product-price">$55.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="wrenches">
+                <img src="assets/images/tool.png" alt="Pipe Wrench" class="product-image">
+                <h2 class="product-name">Pipe Wrench</h2>
+                <p class="product-price">$25.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="wrenches">
+                <img src="assets/images/tool.png" alt="Combination Wrench Set" class="product-image">
+                <h2 class="product-name">Combination Wrench Set</h2>
+                <p class="product-price">$40.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="saws">
+                <img src="assets/images/tool.png" alt="Hand Saw" class="product-image">
+                <h2 class="product-name">Hand Saw</h2>
+                <p class="product-price">$20.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="saws">
+                <img src="assets/images/tool.png" alt="Circular Saw" class="product-image">
+                <h2 class="product-name">Circular Saw</h2>
+                <p class="product-price">$130.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="saws">
+                <img src="assets/images/tool.png" alt="Jigsaw" class="product-image">
+                <h2 class="product-name">Jigsaw</h2>
+                <p class="product-price">$75.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="saws">
+                <img src="assets/images/tool.png" alt="Table Saw" class="product-image">
+                <h2 class="product-name">Table Saw</h2>
+                <p class="product-price">$250.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+            <div class="product-card" data-category="saws">
+                <img src="assets/images/tool.png" alt="Miter Saw" class="product-image">
+                <h2 class="product-name">Miter Saw</h2>
+                <p class="product-price">$300.00</p>
+                <button class="favorite-button">♡ Favorite</button>
+            </div>
+            
+
+        </div>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2025 Work Tool Catalogue. No rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
